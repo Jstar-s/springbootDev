@@ -1,0 +1,43 @@
+person:
+  boss: true
+  birth: 2019/12/3
+  age: 19
+  interests:
+    - 篮球
+    - 足球
+  animal: [猫, 狗]
+#  score:
+#    english: 30
+#    chinese: 40
+  score: {english: 50, chinese: 23}
+  salarys:
+    - 122
+    - 2323
+  pet:
+    name: tim
+    weight: 123
+  allPets:
+    sick:
+      - {name: qw, weight: 234}
+      - name: er
+        weight: 26
+    health:
+      - {name: rt, weight: 267}
+      - {name: sd, weight: 234}
+  user-name: zhansan
+
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+#        启用REST风格的post请求，（post提交过来通过设置_method属性来指定提交方式
+#        开启页面表单的REST功能
+        enabled: true
+##    静态资源默认访问前缀设置
+#    static-path-pattern: /res/**
+
+#  resources:
+##    配置静态资源所在目录，指定后只要在这个目录下的静态资源才能被访问到
+#    static-locations: [classpath:/mystatic/]
+
